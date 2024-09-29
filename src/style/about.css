@@ -1,0 +1,61 @@
+/* stylos de proyecto section */
+.primercajon {
+  max-width: 100vw;
+  margin-top: 15px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.imagencajon {
+  border: 2px solid #1e2a78;
+  border-radius: 10px;
+  width: 350px;
+  margin: 30px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafocajon {
+  text-align: left;
+  max-width: 50%;
+  margin: 35px;
+  line-height: 1.5;
+  margin-left: 1rem;
+}
+/* stylos de cajon dos */
+
+.segundocajon {
+  margin: 20px 0;
+  max-width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.imagencajondos {
+  border: 2px solid #1e2a78;
+  border-radius: 10px;
+  width: 350px;
+  height: auto;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafocajondos {
+  text-align: left;
+  max-width: 50%;
+  line-height: 1.5;
+  margin: 35px;
+  margin-right: 1rem;
+}

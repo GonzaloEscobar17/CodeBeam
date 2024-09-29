@@ -1,0 +1,67 @@
+/* estilos carrusel */
+.contenedor-carrusel {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.titulo-carrusel {
+  font-size: 28px;
+  margin-bottom: 30px;
+  user-select: none;
+  color: #333;
+}
+
+.carrusel-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+
+.grid-premios {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.premio {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  width: 70px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  flex: 0 0 auto;
+  margin: 0 10px;
+}
+
+.premio:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.1);
+}
+
+.premio img {
+  width: 100%;
+  height: auto;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.punto {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.punto.activo {
+  background-color: #333;
+}

@@ -1,0 +1,105 @@
+/* Estilos del banner */
+.banner-container {
+  background: linear-gradient(135deg, #1e2a78, #3d0163);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 380px;
+  padding: 10px;
+  margin: 4px 0;
+  user-select: none;
+  border-radius: 8px;
+}
+
+/* Estilos del contenido del banner */
+.banner-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+.banner-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.highlight {
+  color: #00e5ff;
+  font-size: 40px;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* Estilos para la imagen del banner */
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* esatilos de presentacion */
+.presentation-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.presentation-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.presentation-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-image {
+  width: 100%;
+  border-radius: 9px;
+  height: auto;
+  margin-bottom: 10px;
+  transition: opacity 0.2s ease;
+}
+
+.presentation-card:hover .presentation-image {
+  opacity: 0.9;
+}
+
+.presentation-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.presentation-card:hover .presentation-title {
+  color: #1e2a78;
+}
+
+.presentation-description {
+  font-size: 14px;
+  color: #000;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.presentation-card:hover .presentation-description {
+  opacity: 1;
+}

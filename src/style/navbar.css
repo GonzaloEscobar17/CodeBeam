@@ -1,0 +1,50 @@
+/* Estilos del logo en el navbar */
+.logoPrincipal {
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.logoPrincipal:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos de los enlaces en el navbar */
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+}
+
+/* Estilos del texto animado */
+.titleContainer {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.codeBeamTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  opacity: 1;
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
